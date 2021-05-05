@@ -1,0 +1,478 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/*---header section---*/
+header{
+	width: 100%;
+	float: left;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+.logo{
+	width: 15%;
+	float: left;
+}
+
+.logo a{
+
+}
+
+.logo img{
+	width: 175px;
+    height: 100px;
+
+}
+
+.menu{
+	width: 65%;
+    float: left;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+    margin: 35px 14px 0px;
+    padding: 3px 5px;
+}
+
+nav ul li a{
+
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+nav ul li::after{
+	content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+	width: 100%;
+}
+
+nav ul li a:hover{
+	color: #f44336;
+	transition: 0.2s;
+
+}
+
+.social-icon{
+	width: 19%;
+    float: left;
+}
+
+.social-icon ul{
+	list-style: none;
+
+}
+
+.social-icon ul li{
+    display: inline-block;
+    margin: 41px 3px;
+    transition: 0.4s ease-in-out;
+}
+
+.social-icon ul li a{
+
+}
+
+.social-icon ul li:hover{
+	transform: scale(1.5);
+}
+
+.fa.fa-facebook {
+	background: #0F90F3;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 50%;
+}
+
+.fa.fa-twitter {
+	background: #55ADED;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 50%;
+}
+
+.fa.fa-instagram {
+	background: #E70B1B;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 50%;
+}
+
+.fa.fa-pinterest {
+	background: #C61E26;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 50%;
+}
+
+.fa.fa-linkedin {
+	background: #0077B5;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 50%;
+}
+
+.fa.fa-youtube-play {
+	background: #FE0000;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 50%;
+}
+
+/*--- Main Content---*/
+
+.main-content{
+	width: 100%;
+	float: left;
+	background-image: url(../img/cover.jpg);
+	background-size: cover;
+	height: 480px;
+
+
+}
+
+.main-text{
+	text-align: center;
+	color: #fff;
+	margin: 12% auto;
+}
+
+.main-text h1{
+	font-size: 45px;
+	margin: 25px;
+}
+
+.main-text p{
+	font-size: 17px;
+}
+.button-one{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	margin: 29px 40px;
+	display: inline-block;
+	padding: 10px 40px;
+	font-size: 14px;
+}
+
+.button-two{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	margin: 29px 40px;
+	display: inline-block;
+	padding: 10px 24px;
+	font-size: 14px;
+}
+
+.main-text a:hover{
+	border: 2px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+
+.main-button{
+	width: 100%;
+    float: left
+}
+
+.button-icon{
+
+}
+
+.button-icon ul{
+	list-style: none;
+}
+
+.button-icon ul li{
+
+	display: inline-block;
+	margin: 40px 70px 0px;
+	font-size: 25px;
+	transition: 1.5s;
+}
+
+.fa.fa-file-text{
+	background: #00B0FF;
+    color: #fff;
+    padding: 29px;
+    border-radius: 50%;
+}
+
+.fa.fa-music{
+	background: #00B0FF;
+    color: #fff;
+    padding: 29px;
+    border-radius: 50%;
+}
+
+.fa.fa-paper-plane{
+	background: #00B0FF;
+    color: #fff;
+    padding: 29px;
+    border-radius: 50%;
+}
+
+.fa.fa-mobile{
+	background: #00B0FF;
+    color: #fff;
+    padding: 29px 33px;
+    border-radius: 50%;
+}
+
+.fa.fa-star{
+	background: #00B0FF;
+    color: #fff;
+    padding: 29px;
+    border-radius: 50%;
+}
+
+
+
+.button-icon ul li:hover{
+	transform: scale(0.5);	
+}
+
+.button-content{
+
+}
+
+.button-content ul{
+	list-style: none;
+}
+
+.button-content ul li{
+	
+	display: inline-block;	
+	margin: 15px 30px;
+	font-size: 23px;
+}
+
+.button-text{
+	width: 100%;
+	float: left;
+}
+
+.content-one{
+	width: 17%;
+    float: left;
+    text-align: justify;
+    margin-right: 33px;
+    padding: 0px 5px;
+    color: #4d4d4d;
+}
+
+.content-two{
+	width: 17%;
+    float: left;
+    text-align: justify;
+    margin-right: 30px;
+    padding: 0px 5px;
+    color: #4d4d4d;
+}
+
+.content-three{
+	width: 17%;
+    float: left;
+    text-align: justify;
+    margin-right: 18px;
+    padding: 0px 5px;
+    color: #4d4d4d;
+}
+
+.content-four{
+	width: 17%;
+    float: left;
+    text-align: justify;
+    margin-right: 20px;
+    padding: 0px 5px;
+    color: #4d4d4d;
+}
+.content-five{
+	width: 17%;
+    float: left;
+    text-align: justify;
+    padding: 0px 5px;
+    color: #4d4d4d;
+}
+
+.read-button{
+
+	text-decoration: none;
+    text-align: center;
+    display: block;
+    border: 2px solid;
+    background: #00B0FF;
+    color: #fff;
+    margin: 20px 40px 0px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.content-bar{
+	width: 100%;
+    float: left;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.slide-one{
+	width: 30.33%;
+	float: left;
+	margin-right: 30px;
+}
+
+.post-one{
+	width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #a6a6a6;
+}
+.post-one img{
+	width: 32%;
+    float: left;
+    height: 97px;
+    margin-right: 21px;
+    border: 3px solid #00B0FF;
+}
+.post-one p{
+	width: 58%;
+    float: left;
+    font-size: 17px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+.post-one h5 {
+	float: left;
+    margin-top: 3px;
+    color: #00B0FF;
+}
+
+.slide-two{
+	width: 60.66%;
+	float: left;
+	margin-right: 30px;
+	
+}
+
+.side-bar{
+	width: 100%;
+	float: left;
+
+}
+
+.side-bar img{
+
+	width: 50%;
+	float: left;
+	margin-right: 32px;
+}
+
+.side-bar h2{
+	width: 45%;
+	float: left;
+	font-size: 23px;
+	margin-bottom: 9px;
+}
+
+.side-bar span{
+
+	font-size: 13px;
+	font-weight: 800;
+	color: #00B0FF;
+	margin-right: 48px;
+}
+
+.side-bar p{
+	color: #4d4d4d;
+}
+
+.sidebar-one{
+	width: 50%;
+	float: left;
+}
+
+.side-post{
+	width: 100%;
+    float: left;
+    margin-top: 22px;
+    padding-bottom: 24px;
+}
+
+
+.side-post h5{
+	    color: #00B0FF;
+    margin-top: 4px;
+
+}
+
+.sidebar-two{
+	width: 50%;
+	float: left;
+}
+
+/*----Entertainment Blog---*/
+
+.entertainment{
+	width: 100%;
+	float: left;
+}
+
+.entertainment-one{
+    width: 48%;
+    float: left;
+    background-image: url(../img/travel9.jpg);
+    background-size: cover;
+    height: 382px;
+    margin-right: 20px;
+}
+
+.entertainment-post{
+    width: 93%;
+    margin-top: 49%;
+    margin-left: 27px;
+
+}
+
+.entertainment-post span{
+	font-size: 13px;
+    font-weight: 800;
+    color: #00B0FF;
+    padding-right: 57px;
+}
+
+.entertainment-post h2{
+	font-size: 28px;
+    color: #1a1a1a;
+}
+
+.entertainment-two{
+    width: 48%;
+    float: left;
+    background-image: url(../img/gym2.jpg);
+    background-size: cover;
+    height: 382px;
+    margin-right: 20px;
+}
+
+
